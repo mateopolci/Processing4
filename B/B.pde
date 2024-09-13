@@ -5,11 +5,13 @@ void setup(){
   
   size(1440,960);
 
-  img = loadImage("bosque.jpg");
+  frameRate(60);
 
-  image(img, 0, 0, img.width/1.25, img.height/1.25);
+  img = loadImage("field.jpg");
+
+  image(img, 0, 0, img.width/2.9, img.height/2.9);
   
-  strokeWeight(10);
+  strokeWeight(20);
   
   pickedColor = color(255, 255, 255, 0);
   
